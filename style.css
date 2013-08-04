@@ -1,0 +1,226 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:lightgrey;
+
+}
+
+article{
+	padding:75px 0;
+}
+
+div.background{
+	width:absolute;
+}
+
+h1, h2, h3{
+	font-family: 'Advent Pro', sans-serif;
+	font-weight:600;
+	display:block;
+	margin:auto;
+}
+
+h1{
+	font-size:28px;
+	font-weight:600;
+}
+div.logocolor{
+	background-image:url(img/logowhitefrilly.svg);
+	background-size:500px;
+	width:500px;
+	height:500px;
+	text-align:center;
+	line-height:300px;
+	margin: -80px auto -64px auto;
+	position:relative;
+	z-index:10;
+}
+
+div.logocolor h1{	
+	font-size:70px;
+	margin-bottom:5px;
+	margin-top:110px;
+	font-size:95px;
+	font-weight:100;
+	display:inline-block;
+	vertical-align:middle;
+	line-height:1.2em;
+	padding:15px;
+	border-radius:50%;
+	width:475px;
+	color:white;
+	text-shadow:1px 1px 5px rgb(190, 146, 146);
+}
+
+h1.offer{
+
+}
+
+h2{
+	font-size:20;
+	font-weight:400;
+}
+
+h2.morespace{
+	margin-bottom:15px;
+}
+
+aside.phone{
+	background-color:rgb(245, 177, 197);
+	position:fixed;
+	top:20px;
+	right:0px;
+	width:150px;
+	padding:0 10px;
+	border:3px solid white;
+	border-right:0px;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+	box-shadow:2px 2px 2px rgba(0,0,0,0.300);
+	z-index:14;
+}
+
+
+p{
+	font-family: 'Advent Pro', sans-serif;
+	font-weight:200;
+	display:block;
+	margin-bottom:10px;
+	margin-top:5px;
+	font-size:19px;
+}
+
+p.intro{
+	max-width: 650px;
+	font-weight:300;
+	margin: auto;
+	font-size: 28px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+p.credit{
+	float-right
+	font-size:8px;
+}
+
+ul{
+	font-family: 'Advent Pro', sans-serif;
+  	font-weight:100;
+  	font-size:20px;
+  	margin-top:0;
+  	margin-bottom:0;
+  	padding-left:30px;
+}
+
+section{
+	max-width:650px;
+	margin:auto;
+	margin-bottom:50px;
+}
+section img{
+	width:650px;
+	position:block;
+	margin:auto;
+	margin-bottom:20px;
+}
+
+
+nav{
+  	text-align:center;
+	margin-top:10px;
+}
+
+nav a{
+  font-family: 'Advent Pro', sans-serif;
+  font-weight:100;
+  font-size:26px;
+  display:inline-block;
+  padding:5px;
+  color:black;
+  text-decoration:none;
+  border-left:1px solid black;
+}
+
+nav a:first-child{
+	border-left:0;
+}
+
+nav a:hover{
+	text-decoration:underline;
+}
+
+div.thumbnails{
+	margin-top:50px;
+	text-align:center;
+}
+
+div.thumbnails img{
+	vertical-align:top;
+}
+
+div.offer{
+background-image:url(img/spesh.svg);
+width:300px;
+height:300px;
+text-align:center;
+display:inline-block;
+line-height:300px;
+float:right;
+margin-top: -22px;
+margin-right: -108px;
+}
+
+div.offer h1{	
+	font-size:30px;
+	line-height:34px;
+	margin-bottom:5px;
+}
+
+div.offer p{
+	font-size:20px;
+	font-weight:600;
+	margin-top:0;
+
+}
+div.offertext{
+font-size:18px;
+display:inline-block;
+vertical-align:middle;
+line-height:1.2em;
+padding:15px;
+border-radius:50%;
+width:150px;
+color:white;
+text-shadow:1px 1px 5px rgb(190, 146, 146);
+
+}
+
+
+/**
+* Here is the slideshow
+*/
+
+div.slideshow{
+	width:800px;
+	height:400px;
+	position:relative;
+	margin: 0 auto;
+}
+
+div.slideshow div.slide{
+	width:800px;
+	height:400px;
+	position:absolute;
+	display:none;
+
+}
+div.slideshow div.slide:nth-child(odd){
+}
+
+
+
+
+
